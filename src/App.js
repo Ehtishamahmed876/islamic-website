@@ -3,6 +3,7 @@ import Home from './components/Home';
 import QuranHadis from './components/QuranHadis';
 import Fiqa from "./components/Fiqa";
 import Work from "./components/Work";
+import Courses from "./components/Courses";
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
            <Route path="/quranhadis" element={<QuranHadis />} />
            <Route path="/fiqa" element={<Fiqa />} />
            <Route path="/welfare-work" element={<Work />} />
+           <Route path="/online-courses" element={<Courses />} />
 
+          
            
      
        </Routes>
