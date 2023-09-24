@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Navbar = ( {logosrc}) => {
+const Navbar = ( {logosrc, color}) => {
   return (
-    <nav className="text-white py-2">
+    <nav className={`text-${color} py-2`}>
     
         <ul className=" mx-10 flex space-x-3 justify-evenly font-Ubuntu text-lg items-center ">
           <li className=" "><NavLink to="/" activeClassName="text-gray-400"> <img src={logosrc} alt="Logo" className="w-12 h-12" /></NavLink></li>

@@ -11,7 +11,7 @@ const Home = () => {
                 className="bg-cover  h-full" // You can adjust the height and other styles as needed
                 style={{ backgroundImage: 'url(/images/homeback.png)' }}
             >
-                <Navbar logosrc={"/images/homelogo.png"} />
+                <Navbar logosrc={"/images/homelogo.png"} color={"white"}/>
 
                 <div className='flex justify-around items-center  h-full'>
                     <div className='flex flex-col items-start font-Ubuntu  text-white'>

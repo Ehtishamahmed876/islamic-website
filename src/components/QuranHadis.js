@@ -8,7 +8,7 @@ const QuranHadis = () => {
       <div
         className="bg-cover  h-96 bg-yellow-500" // You can adjust the height and other styles as needed
       >
-        <Navbar logosrc={"/images/page2logo.png"} />
+        <Navbar logosrc={"/images/page2logo.png"} color={"white"} />
         <div className='flex flex-col justify-center items-center h-full'>
           <div className='p-3 mb-28 flex justify-center items-center bg-white w-[60rem] rounded-lg'>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12">

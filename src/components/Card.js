@@ -11,6 +11,7 @@ const Card = ({head1,head2,para1,buttontext,imgsrc}) => {
                     <p className='text-black font-bold text-lg'>{head2}</p>
                     <p className='w-[22rem]'>{para1}</p>
                     <p className='text-yellow-500 font-bold underline '>{buttontext}</p>
+                  
                     </div>
                 </div>
   )
